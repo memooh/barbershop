@@ -1,0 +1,59 @@
+.OurServices {
+  margin-top: 10%;
+}
+
+.servicesText h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.servicesText p {
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.servicesCards {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.card {
+  border: none;
+}
+.card-img {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.card .col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-subtitle {
+  font-size: 24px;
+  font-weight: bolder;
+  color: black !important;
+}
+
+@media (max-width: 767px) {
+  .card-body {
+    text-align: center;
+  }
+
+  .card-img {
+    margin-top: 1rem;
+  }
+}

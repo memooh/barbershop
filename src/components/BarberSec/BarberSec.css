@@ -1,0 +1,26 @@
+.BarberSectie {
+    margin-top: 10%;
+}
+.BarberSec{
+    background-image: url('/images/barberSec.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    margin: 0;
+    padding: 0;
+}   
+
+.BarberSec h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767.98px) {
+    .BarberSec h1 {
+        font-size: 32px;
+    }
+}

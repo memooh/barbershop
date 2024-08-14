@@ -1,0 +1,69 @@
+.personalService {
+    margin-top: 10%;
+}
+
+.psTitle h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.psTitle p {
+    font-size: 16px;
+}
+
+.customerRating {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.customerPer {
+    color: #d1bea8;
+    font-weight: bold;
+}
+
+.psTitle h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width: 991px) {
+    .psTitle h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .customerRating {
+        font-size: 36px;
+        text-align: center;
+
+    }
+
+    .psTitle h4 {
+        font-size: 18px;
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .psTitle h1 {
+        font-size: 28px;
+        text-align: center;
+
+    }
+
+    .customerRating {
+        font-size: 28px;
+        text-align: center;
+
+    }
+
+    .psTitle h4 {
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+}

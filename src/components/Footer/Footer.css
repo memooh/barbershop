@@ -1,0 +1,128 @@
+.footer {
+    margin-top: 5%;
+}
+.fSection {
+    background-image: url('/images/hero_footer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    margin: 0;
+    padding: 0;
+}
+
+.fSection h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase
+}
+.fSection p {
+    color: white;
+}
+.fSection h4 {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase
+
+}
+
+.contactFormSection {
+    background-color: white;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.accForm {
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-control {
+    border: 0 !important;
+    resize: none;
+    border-bottom: 2px solid black !important;
+    border-radius: 0 !important;
+    margin-bottom: 20px;
+}
+
+textarea.form-control {
+    flex-grow: 1;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .fSection {
+    height: auto;
+    min-height: 75vh;
+    padding: 40px 0;
+  }
+
+  .fSection h1 {
+    font-size: 36px;
+  }
+
+  .contactFormSection {
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .accForm {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fSection h1 {
+    font-size: 28px;
+  }
+
+  .fSection p {
+    font-size: 14px;
+  }
+
+  .fSection h4 {
+    font-size: 18px;
+  }
+
+  .accForm {
+    padding: 15px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+  .buttons {
+    margin-top: 15px;
+  }
+
+  .appointmentBtn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+.map-container {
+    width: 100%;
+  }
+  
+  .creditFooter {
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .creditFooter h4 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase
+
+  }
